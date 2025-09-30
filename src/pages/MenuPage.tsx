@@ -145,7 +145,7 @@ const MenuPage = () => {
                 <Card className="max-w-xs h-full overflow-hidden rounded-lg shadow-lg bg-card text-card-foreground border-border hover:shadow-xl transition-shadow duration-300">
                   <div className="relative w-full h-32 overflow-hidden">
                     <img
-                      src={item.imageUrl || `https://placehold.co/200x128/000000/FFFFFF/png?text=${encodeURIComponent(item.ItemName)}`}
+                      src={(item as any).image || `https://placehold.co/200x128/000000/FFFFFF/png?text=${encodeURIComponent(item.ItemName)}`}
                       alt={`Delicious ${item.ItemName}`}
                       className="object-cover w-full h-full"
                     />
