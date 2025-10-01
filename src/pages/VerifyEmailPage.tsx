@@ -89,7 +89,7 @@ const VerifyEmailPage = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                     <p className="text-sm text-muted-foreground">
-                        Click the link in the email to activate your account. The page will redirect automatically once you're verified.
+                        Click the link in the email to activate your account. Check Spam folder if not seen and then refresh.
                     </p>
                     <Button onClick={handleManualCheck} className="w-full">
                         I've Verified, Continue Now
